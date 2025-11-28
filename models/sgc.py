@@ -7,7 +7,7 @@ from torch import Tensor
 from torch_geometric.typing import SparseTensor
 from torch_sparse import SparseTensor as ST
 
-from project.models.base import BaseGNN
+from LightGraphNas.models.base import BaseGNN
 
 class SGC(BaseGNN):
     """
