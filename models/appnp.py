@@ -3,7 +3,7 @@ from torch import nn
 import torch.nn.functional as F
 from torch_geometric.nn import APPNP as APPNPLayer
 
-from project.models.base import BaseGNN
+from LightGraphNas.models.base import BaseGNN
 
 
 class APPNP(BaseGNN):
