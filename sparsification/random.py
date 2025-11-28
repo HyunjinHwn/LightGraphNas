@@ -1,6 +1,6 @@
 import numpy as np
 
-from project.sparsification.model_free_coreset_base import MFCoreSet
+from LightGraphNas.sparsification.model_free_coreset_base import MFCoreSet
 
 
 class Random(MFCoreSet):
