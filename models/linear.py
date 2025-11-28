@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 import torch.nn.functional as F
-from project.models.base import BaseGNN
+from LightGraphNas.models.base import BaseGNN
 
 
 class Linear(BaseGNN):

@@ -3,7 +3,7 @@ import torch.nn.functional as F
 from torch import nn
 # from torch_geometric.nn import SAGEConv
 
-from project.models.base import BaseGNN
+from LightGraphNas.models.base import BaseGNN
 
 class GraphSage(BaseGNN):
     """

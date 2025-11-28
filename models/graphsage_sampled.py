@@ -3,7 +3,7 @@ import torch.nn.functional as F
 from torch import nn
 from torch_geometric.loader import NeighborSampler
 
-from project.models.base import BaseGNN
+from LightGraphNas.models.base import BaseGNN
 
 class GraphSageSample(BaseGNN):
     """
