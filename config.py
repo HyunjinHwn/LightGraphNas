@@ -8,7 +8,7 @@ import torch
 
 import click
 from pprint import pformat
-from project.utils import seed_everything, f1_macro, accuracy, roc_auc
+from LightGraphNas.utils import seed_everything, f1_macro, accuracy, roc_auc
 
 representative_r = {
     'cora': 0.5,
