@@ -1,17 +1,15 @@
 import json
 import os.path as osp
 import os
-import pickle
 
 import numpy as np
 import scipy.sparse as sp
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from ogb.nodeproppred import PygNodePropPredDataset
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
-from torch_geometric.datasets import Planetoid, Coauthor, CitationFull, Amazon, Flickr, Reddit2
+from torch_geometric.datasets import Planetoid
 from torch_geometric.loader import NeighborSampler
 from torch_geometric.utils import to_undirected
 from torch_sparse import SparseTensor

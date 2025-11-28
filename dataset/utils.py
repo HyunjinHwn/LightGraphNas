@@ -1,7 +1,7 @@
 import os
 import sys
-from project.dataset.convertor import *
-from project.utils import is_sparse_tensor
+from LightGraphNas.dataset.convertor import *
+from LightGraphNas.utils import is_sparse_tensor
 
 
 
