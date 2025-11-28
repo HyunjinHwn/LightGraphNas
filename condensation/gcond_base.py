@@ -2,7 +2,6 @@ from collections import Counter
 
 import torch.nn as nn
 
-from LightGraphNas.coarsening import *
 from LightGraphNas.condensation.utils import *
 from LightGraphNas.models import *
 from LightGraphNas.sparsification import *
