@@ -8,15 +8,15 @@ import sys
 
 if os.path.abspath('..') not in sys.path:
     sys.path.append(os.path.abspath('..'))
-from project.config import cli
-from project.dataset import *
-from project.evaluation import *
-from project.utils import seed_everything, to_tensor
-from project.sparsification import *
-from project.condensation import CallAgent
+from LightGraphNas.config import cli
+from LightGraphNas.dataset import *
+from LightGraphNas.evaluation import *
+from LightGraphNas.utils import seed_everything, to_tensor
+from LightGraphNas.sparsification import *
+from LightGraphNas.condensation import CallAgent
 
 # python train_all.py -M doscond -D cora --condense_model Parallel --mode condense --gpu_id 7 &
-# python train_all.py -M doscond -D cora --condense_model ParallelWeightV1 --mode grid_search --gpu_id 0
+# python train_all.py -M doscond -D cora --condense_model ParallelWeightV2 --mode grid_search --gpu_id 0
 if __name__ == '__main__':
     args = cli(standalone_mode=False)
     graph = get_dataset(args.dataset, args)
