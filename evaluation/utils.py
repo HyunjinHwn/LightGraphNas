@@ -8,7 +8,7 @@ import torch.nn.functional as F
 from sklearn.metrics import accuracy_score, f1_score
 from torch_sparse import SparseTensor
 
-from project.dataset.utils import csr2ei
+from LightGraphNas.dataset.utils import csr2ei
 
 
 def calculate_homophily(y, adj):
