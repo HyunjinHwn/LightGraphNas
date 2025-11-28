@@ -2,8 +2,8 @@ from copy import deepcopy
 
 import torch.nn as nn
 
-from  project.utils import *
-from  project.models import *
+from  LightGraphNas.utils import *
+from  LightGraphNas.models import *
 
 
 
