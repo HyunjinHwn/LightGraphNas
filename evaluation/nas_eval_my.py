@@ -9,10 +9,10 @@ from tqdm import tqdm
 import numpy as np
 import torch
 
-# from project.evaluation.eval_agent import Evaluator
-from project.dataset import *
+# from LightGraphNas.evaluation.eval_agent import Evaluator
+from LightGraphNas.dataset import *
 from .nas_model_my import TwoLayerNet
-from project.utils import seed_everything
+from LightGraphNas.utils import seed_everything
 
 
 def save_csv(file_path, num):
