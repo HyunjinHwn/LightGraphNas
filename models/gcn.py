@@ -1,8 +1,8 @@
 # from torch_geometric.nn import GCNConv
 from torch_geometric.nn import GraphConv
 
-from project.models.base import BaseGNN
-from project.utils import *
+from LightGraphNas.models.base import BaseGNN
+from LightGraphNas.utils import *
 
 
 class GCN(BaseGNN):
