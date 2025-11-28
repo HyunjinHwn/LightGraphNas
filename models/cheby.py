@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from torch_geometric.nn import ChebConv
 from torch_scatter import scatter_add
 from torch_geometric.utils import degree
-from project.models.base import BaseGNN
+from LightGraphNas.models.base import BaseGNN
 
 class Cheby(BaseGNN):
     """
