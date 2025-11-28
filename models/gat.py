@@ -4,8 +4,8 @@ from torch import nn
 import torch.nn.functional as F
 from torch_geometric.nn import GATConv
 
-from project.models.base import BaseGNN
-from project.utils import *
+from LightGraphNas.models.base import BaseGNN
+from LightGraphNas.utils import *
 
 class GAT(BaseGNN):
     """
