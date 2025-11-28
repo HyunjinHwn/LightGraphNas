@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 
-from project.sparsification.model_based_coreset_base import MBCoreSet
+from LightGraphNas.sparsification.model_based_coreset_base import MBCoreSet
 
 
 class Herding(MBCoreSet):
