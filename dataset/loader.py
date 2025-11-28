@@ -17,9 +17,9 @@ from torch_geometric.utils import to_undirected
 from torch_sparse import SparseTensor
 import shutil
 
-from project.dataset.convertor import ei2csr, csr2ei
-from project.dataset.utils import splits
-from project.utils import index_to_mask, to_tensor
+from LightGraphNas.dataset.convertor import ei2csr, csr2ei
+from LightGraphNas.dataset.utils import splits
+from LightGraphNas.utils import index_to_mask, to_tensor
 
 
 def get_dataset(name='cora', args=None, load_path='../../data'):
