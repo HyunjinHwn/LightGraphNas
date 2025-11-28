@@ -1,10 +1,10 @@
 from tqdm import trange
 
-from project.condensation.gcond_base import GCondBase
-from project.dataset.utils import save_reduced
-from project.evaluation.utils import verbose_time_memory
-from project.utils import *
-from project.models import *
+from LightGraphNas.condensation.gcond_base import GCondBase
+from LightGraphNas.dataset.utils import save_reduced
+from LightGraphNas.evaluation.utils import verbose_time_memory
+from LightGraphNas.utils import *
+from LightGraphNas.models import *
 
 
 class GCond(GCondBase):
