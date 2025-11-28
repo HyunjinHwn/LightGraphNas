@@ -1,9 +1,9 @@
 from tqdm import trange
 
-from project.condensation.gcond_base import GCondBase
-from project.evaluation.utils import verbose_time_memory
-from project.utils import *
-from project.models import *
+from LightGraphNas.condensation.gcond_base import GCondBase
+from LightGraphNas.evaluation.utils import verbose_time_memory
+from LightGraphNas.utils import *
+from LightGraphNas.models import *
 
 
 class DosCond(GCondBase):
