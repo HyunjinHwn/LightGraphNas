@@ -1,7 +1,6 @@
 import networkit as nk
 import numpy as np
-import torch
-from project.sparsification.edge_sparsification_base import EdgeSparsifier
+from LightGraphNas.sparsification.edge_sparsification_base import EdgeSparsifier
 from torch_geometric.utils.convert import from_networkit
 import copy
 
