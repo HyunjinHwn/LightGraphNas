@@ -1,21 +1,12 @@
 import numpy as np
 import torch
 import torch.nn.functional as F
-from tqdm import trange, tqdm
-from sklearn.model_selection import ParameterGrid
-from sklearn.manifold import TSNE
-import matplotlib.pyplot as plt
-from torch_sparse import matmul
 
-from torch_geometric.utils import dense_to_sparse
 from LightGraphNas.dataset import *
 from LightGraphNas.evaluation import *
 from LightGraphNas.evaluation.utils import *
 from LightGraphNas.models import *
-from torch_sparse import SparseTensor
-from LightGraphNas.dataset.convertor import ei2csr
-from LightGraphNas.utils import accuracy, seed_everything, normalize_adj_tensor, to_tensor, is_sparse_tensor, is_identity, \
-    f1_macro
+from LightGraphNas.utils import accuracy, seed_everything
 
 
 class Evaluator:
