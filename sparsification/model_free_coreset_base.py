@@ -2,10 +2,10 @@ import numpy as np
 import torch
 from torch_sparse import matmul
 
-from project.dataset.utils import save_reduced
-from project.evaluation.utils import verbose_time_memory
-from project.sparsification.coreset_base import CoreSet
-from project.utils import normalize_adj_tensor, to_tensor
+from LightGraphNas.dataset.utils import save_reduced
+from LightGraphNas.evaluation.utils import verbose_time_memory
+from LightGraphNas.sparsification.coreset_base import CoreSet
+from LightGraphNas.utils import normalize_adj_tensor, to_tensor
 
 
 class MFCoreSet(CoreSet):
