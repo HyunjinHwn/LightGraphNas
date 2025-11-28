@@ -1,4 +1,4 @@
-from project.utils import *
+from LightGraphNas.utils import *
 import torch_geometric
 import math
 from numpy.linalg import eigh
