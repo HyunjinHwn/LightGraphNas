@@ -2,12 +2,12 @@ from collections import Counter
 
 import torch.nn as nn
 
-from project.coarsening import *
-from project.condensation.utils import *
-from project.models import *
-from project.sparsification import *
-from project.utils import *
-from project.dataset.utils import save_reduced
+from LightGraphNas.coarsening import *
+from LightGraphNas.condensation.utils import *
+from LightGraphNas.models import *
+from LightGraphNas.sparsification import *
+from LightGraphNas.utils import *
+from LightGraphNas.dataset.utils import save_reduced
 
 
 class GCondBase:
