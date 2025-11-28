@@ -1,6 +1,6 @@
 import numpy as np
 
-from project.sparsification.model_free_coreset_base import MFCoreSet
+from LightGraphNas.sparsification.model_free_coreset_base import MFCoreSet
 from scipy.sparse import csr_matrix, diags
 from numpy.linalg import norm
 

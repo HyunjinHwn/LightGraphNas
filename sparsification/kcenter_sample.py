@@ -1,4 +1,4 @@
-from project.sparsification.model_based_coreset_base import MBCoreSet
+from LightGraphNas.sparsification.model_based_coreset_base import MBCoreSet
 import torch
 import numpy as np
 from collections import Counter
