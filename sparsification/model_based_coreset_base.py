@@ -1,11 +1,11 @@
 import numpy as np
 
-from project.dataset.utils import save_reduced
-from project.evaluation import *
-from project.models import *
-from project.sparsification.coreset_base import CoreSet
-from project.utils import to_tensor
-from project.evaluation.utils import verbose_time_memory
+from LightGraphNas.dataset.utils import save_reduced
+from LightGraphNas.evaluation import *
+from LightGraphNas.models import *
+from LightGraphNas.sparsification.coreset_base import CoreSet
+from LightGraphNas.utils import to_tensor
+from LightGraphNas.evaluation.utils import verbose_time_memory
 
 class MBCoreSet(CoreSet):
     def __init__(self, setting, data, args, **kwarg):

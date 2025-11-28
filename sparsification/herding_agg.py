@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 
-from project.sparsification.model_free_coreset_base import MFCoreSet
+from LightGraphNas.sparsification.model_free_coreset_base import MFCoreSet
 
 
 class HerdingAgg(MFCoreSet):
