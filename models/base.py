@@ -3,7 +3,7 @@ from copy import deepcopy
 import torch.nn as nn
 import torch.optim as optim
 
-from project.utils import *
+from LightGraphNas.utils import *
 
 class BaseGNN(nn.Module):
     
