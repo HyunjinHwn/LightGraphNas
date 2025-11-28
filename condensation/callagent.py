@@ -1,7 +1,7 @@
-from project.coarsening import *
-from project.condensation import *
-from project.sparsification import *
-from project.utils import to_camel_case, seed_everything
+from LightGraphNas.coarsening import *
+from LightGraphNas.condensation import *
+from LightGraphNas.sparsification import *
+from LightGraphNas.utils import to_camel_case, seed_everything
 
 def CallAgent(graph, args):
     
